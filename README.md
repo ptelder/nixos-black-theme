@@ -1,3 +1,5 @@
+Forked to hard code greeter position for 1900x1080 primary screen. Corrected original notes below
+
 #[NixOS](http://nixos.org) Black [SLiM](http://slim.berlios.de/) Theme
 ![preview](https://github.com/edwtjo/nixos-black-theme/raw/master/preview.png)
 
@@ -5,7 +7,7 @@ To use this theme in NixOS set your SLiM configuration settings like so:
 
 ```
 
-  services.displayManager.slim = {
+  services.xserver.displayManager.slim = {
     enable = true;
     theme = pkgs.fetchurl {
       url = "https://github.com/edwtjo/nixos-black-theme/archive/v1.0.tar.gz";
