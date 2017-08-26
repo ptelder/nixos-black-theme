@@ -12,7 +12,7 @@ background_color        #000000
 
 input_font              Verdana:size=10:bold:dpi=96
 input_fgcolor           #000000
-input_panel_x           500
+input_panel_x           725
 input_panel_y           290
 input_name_x            52
 input_name_y            364
